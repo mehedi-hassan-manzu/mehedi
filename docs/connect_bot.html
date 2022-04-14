@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"
+      name="viewport"
+    />
+    <title>BotSailor Documentation</title>
+    <link rel="shortcut icon" href="../assets/img/favicon.png" />
+
+    <!-- General CSS Files -->
+    <link
+      rel="stylesheet"
+      href="../assets/modules/bootstrap/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/modules/fontawesome/css/all.min.css"
+    />
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="../assets/modules/prism/prism.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/modules/chocolat/dist/css/chocolat.css"
+    />
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="main-wrapper">
+        <nav class="navbar navbar-expand-lg main-navbar">
+          <a
+            href="#"
+            class="nav-link sidebar-gone-show h-auto"
+            data-toggle="sidebar"
+            ><i class="fas fa-bars"></i
+          ></a>
+          <a href="../" class="navbar-brand text-center">
+            <img src="../assets/img/logo.png" style="max-width: 150px" />
+          </a>
+          <div class="nav-collapse mr-lg-auto mr-0 ml-auto m-lg-0">
+            <!-- <a class="sidebar-gone-show nav-collapse-toggle sidebar-gone-show nav-link" href="#">
+            <i class="fas fa-ellipsis-v"></i>
+          </a> -->
+          </div>
+          <ul
+            class="navbar-nav d-lg-flex align-items-center justify-content-end w-25"
+          >
+            <li class="ml-lg-2">
+              <a
+                href="../api/doc"
+                target="_BLANK"
+                class="nav-link btn btn-outline-primary text-primary btn-icon icon-left"
+                ><i class="fas fa-plug"></i> API Doc</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="main-sidebar sidebar-style-2">
+          <aside id="sidebar-wrapper">
+            <div class="sidebar-brand sidebar-brand-sm">
+              <a href="../"><img src="../assets/img/favicon.png" /></a>
+            </div>
+            <ul>
+              <li><a href="dashboard.html" class="active">Dashboard</a></li>
+              <li>
+                TELEGRAM
+                <ul>
+                  <li>
+                    <a href="connect_bot.html" class="active">Connect Bot</a>
+                  </li>
+                  <li><a href="bot_manager.html">Bot Manager</a></li>
+                  <li><a href="#">Subscriber Manager</a></li>
+                  <li><a href="#">Message Broadcast</a></li>
+                  <li><a href="#">Integration</a></li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  Ecommerce
+                  <li><a href="#" class="active">eCommerce Store</a></li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  Payment
+                  <li><a href="#" class="active">Buy Package</a></li>
+                  <li><a href="#" class="active">Transaction</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- Menu -->
+          </aside>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content" style="min-height: 352px">
+          <section class="section">
+            <div class="section-body">
+              <ul>
+                <li>
+                  <a href="#chat-with-botfather">Chat with the BotFather</a>
+                </li>
+                <li>
+                  <a href="#creating-a-name-username"
+                    >Create a name and user name for your bot</a
+                  >
+                </li>
+              </ul>
+
+              <div class="section-header">
+                <h1 id="chat-with-botfather">Chat with the BotFather</h1>
+              </div>
+              <hr />
+
+              <p>
+                To build a Telegram bot with BotSailor, first, open your
+                Telegram App. Then in the search bar of the app, search with the
+                ‘BotFather’ keyword. Then select the verified BotFather account.
+              </p>
+
+              <img
+                src="assets/images/connect_bot/search_bot_father.png"
+                class="img-fluid"
+              />
+
+              <p>
+                Instantly a message with two links and a get started button
+                called START will appear. Now you have to click on the Get
+                Started Button called Start.
+              </p>
+
+              <img
+                src="assets/images/connect_bot/get_started_button_start.png"
+                class="img-fluid"
+              />
+
+              <p>
+                And without delay, it will send another message with a lot of
+                options. Now click on the “/newbot” option to create a new bot.
+              </p>
+
+              <img
+                src="assets/images/connect_bot/new_bot_button.png"
+                class="img-fluid"
+              />
+              <hr />
+
+              <div class="section-header">
+                <h1 id="creating-a-name-username">
+                  Create a name and user name
+                </h1>
+              </div>
+
+              <hr />
+
+              <p>
+                Then the BotFather will ask you to choose a name for the bot.
+                And you have to choose a name for the bot. After that, the
+                BotFather will ask for a user name that ends with the word
+                ‘bot’. Now you have to provide a user name. Then the BotFather
+                will check if the user name is already taken. If the user name
+                you provide is already taken, the BotFather will ask for another
+                user name.
+              </p>
+
+              <img
+                src="assets/images/connect_bot/new_bot.png"
+                class="img-fluid"
+              />
+
+              <p>
+                And if the user name is not taken, BotFather will congratulate
+                you and send you the token to access the HTTP API. To build the
+                bot you need the token. And the token can be used by anyone to
+                control your bot. Therefore, your should keep your token secure
+                and store it safely. Now copy the access token.
+              </p>
+
+              <img
+                src="assets/images/connect_bot/access_token.png"
+                class="img-fluid"
+              />
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- General JS Scripts -->
+    <script src="../assets/modules/jquery.min.js"></script>
+    <script src="../assets/modules/popper.js"></script>
+    <script src="../assets/modules/tooltip.js"></script>
+    <script src="../assets/modules/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/modules/nicescroll/jquery.nicescroll.min.js"></script>
+    <script src="../assets/modules/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.8/marked.min.js"></script>
+
+    <!-- JS Libraies -->
+    <script src="../assets/modules/prism/prism.js"></script>
+    <script src="assets/js/stisla.js"></script>
+    <script src="../assets/modules/sticky-kit.js"></script>
+    <script src="../assets/modules/chocolat/dist/js/jquery.chocolat.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
+    <!-- Template JS File -->
+    <script src="https://unpkg.com/navigo@6.0.2/lib/navigo.min.js"></script>
+  </body>
+</html>
